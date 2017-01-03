@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@drawable/background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:src="@drawable/logo"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+    <Button
+            android:id="@+id/bt_choi_thu"
+            android:background="@drawable/bg_choi_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+    <Button
+            android:id="@+id/bt_choi_don"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_choi_don"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+    <Button
+            android:id="@+id/bt_thach_dau"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_thach_dau"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+    <Button
+            android:id="@+id/bt_dang_nhap"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_dang_nhap"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+
+</LinearLayout>
